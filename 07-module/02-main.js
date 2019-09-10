@@ -1,4 +1,8 @@
 #!/usr/bin/node
+
+var circle=require('./02-export-object-v2');
+console.log('r=10,circle area',circle.area(10));
+
 /*
 const p=require('./02-export-var');
 console.dir(module);
