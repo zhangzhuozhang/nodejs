@@ -1,0 +1,3 @@
+name:赖冠霖 age 20
+json: {"name":"赖冠霖","age":20,"qq":"1924745"}
+age is: 20
