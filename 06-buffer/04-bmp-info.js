@@ -18,10 +18,7 @@ try{
 }
 
 if(buf.toString('ascii',0,2)==='BM'){
-
-  g('width:', buf.readInt32LE(0x12));
-
+    log('width:', buf.readInt32LE(0x12));
     log('height:', buf.readInt32LE(0x16));
-
-      log('color depth:', buf.readUInt16LE(0x1c));
+    log('color depth:', buf.readUInt16LE(0x1c));
 }
